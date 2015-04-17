@@ -1,8 +1,6 @@
 #!/bin/bash
 
-PWD=`pwd`
-
-find ${PWD} -name '*.py' \
+find `pwd`/ -name '*.py' \
 -o -name '*.java' \
 -o -iname '*.[CH]' \
 -o -name '*.cpp' \
