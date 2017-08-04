@@ -48,6 +48,8 @@ if mp3s:
 			sleep(1)
 		# Write the existing playlist from cmus at the bottom of the new playlist
 		playlist.write(data)
-		print "Check playlist.pl and if it looks fine manually copy it to ~/.cmus"
+		print "Check playlist.pl and if it looks fine do:"
+		print "  cp playlist.pl ~/.cmus"
+		print "  cp playlist.pl ~/Music/playlists/done/newest-really.m3u"
 else:
 	print "No .mp3 files found"
